@@ -1,12 +1,18 @@
-module changeme
+module voiceshow
 
 go 1.18
 
-require github.com/wailsapp/wails/v2 v2.5.1
+require (
+	github.com/hopesea/godub/v2 v2.2.1
+	github.com/wailsapp/wails/v2 v2.5.1
+)
+
+require github.com/tink-ab/tempfile v0.0.0-20180226111222-33beb0518f1a // indirect
 
 require (
 	github.com/bep/debounce v1.2.1 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
+	github.com/google/go-cmp v0.5.9
 	github.com/google/uuid v1.1.2 // indirect
 	github.com/jchv/go-winloader v0.0.0-20210711035445-715c2860da7e // indirect
 	github.com/labstack/echo/v4 v4.9.0 // indirect
